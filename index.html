@@ -3,20 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Biswas Pokhrel Portfolio</title>
+    <title>Biswas Pokhrel</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'Poppins', sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .animated-text {
+            font-size: 4rem;
+            color: #333;
+            animation: textZoom 3s infinite ease-in-out;
+        }
+
+        @keyframes textZoom {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+        }
+
+        .social-links {
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            display: inline-block;
+            margin: 0 10px;
+            text-decoration: none;
+            color: #555;
+            font-size: 1.2rem;
+            transition: color 0.3s ease;
+        }
+
+        .social-links a:hover {
+            color: #0073e6;
+        }
+
+        .social-links p {
+            margin-top: 10px;
+            font-size: 1rem;
+            color: #555;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
         <h1 class="animated-text">Biswas Pokhrel</h1>
         <div class="social-links">
-            <a href="https://www.facebook.com/yourprofile" target="_blank">Facebook</a>
-            <a href="https://www.instagram.com/yourprofile" target="_blank">Instagram</a>
-            <a href="https://www.youtube.com/yourchannel" target="_blank">YouTube</a>
-            <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+            <a href="https://www.facebook.com/biswaspok" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/biswaspok" target="_blank">Instagram</a>
+            <a href="https://www.youtube.com/@biswaspok" target="_blank">YouTube</a>
+            <p>Email: <a href="mailto:your.email@example.com">pokbiswas@gmail.com</a></p>
         </div>
     </div>
 </body>
